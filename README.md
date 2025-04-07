@@ -72,6 +72,7 @@ The protein secondary structure (SS) prediction plays an important role in the c
 - GitHub: https://github.com/Kotrix/ProteinUnetLM
 - CodeOcean inference code and reproducible capsule: https://codeocean.com/capsule/4357959
 - Biolib prediction server: https://biolib.com/SUT/ProteinUnetLM
+- Training notebook: https://colab.research.google.com/drive/1Onh6xlg-a-_QDy2EL_t9XmKa8T3VLVEv
 
 ### Citation
 
