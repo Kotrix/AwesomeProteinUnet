@@ -1,6 +1,8 @@
 # AwesomeProteinUnet
 The summary of all resources related to the ProteinUnet architecture
 
+The poster summarizing all the ProteinUnet versions: [http://dx.doi.org/10.13140/RG.2.2.21147.17445](http://dx.doi.org/10.13140/RG.2.2.21147.17445)
+
 
 ## ProteinUnet
 
@@ -11,7 +13,7 @@ Predicting protein function and structure from sequence remains an unsolved prob
 
 ### Code
 
-- CodeOcean inference code and reproducible capsule: https://codeocean.com/capsule/2521196
+- CodeOcean inference code and reproducible capsule: [https://codeocean.com/capsule/2521196](https://codeocean.com/capsule/2521196)
 
 ### Citation
 
@@ -41,7 +43,7 @@ Predicting protein function and structure from sequence remains an unsolved prob
 We present a lightweight deep network ProteinUnet2 for SS prediction which is based on U-Net convolutional architecture and evolutionary-based input features (from PSSM and HHblits) as well as SPOT-Contact features. Through an extensive evaluation study, we report the performance of ProteinUnet2 in comparison with top SS prediction methods based on evolutionary information (SAINT and SPOT-1D). We also propose a new statistical methodology for prediction performance assessment based on the significance from Fisher–Pitman permutation tests accompanied by practical significance measured by Cohen’s effect size. Our results suggest that ProteinUnet2 architecture has much shorter training and inference times while maintaining results similar to SAINT and SPOT-1D predictors. Taking into account the relatively long times of calculating evolutionarybased features (from PSSM in particular), it would be worth conducting the predictive ability tests on embeddings as input features in the future. We strongly believe that our proposed here statistical methodology for the evaluation of SS prediction results will be adopted and used (and even expanded) by the research community.
 
 ### Code
-- CodeOcean inference code and reproducible capsule: codeocean.com/capsule/0425426
+- CodeOcean inference code and reproducible capsule: [codeocean.com/capsule/0425426](codeocean.com/capsule/0425426)
 
 ### Citation
 
@@ -69,10 +71,10 @@ We present a lightweight deep network ProteinUnet2 for SS prediction which is ba
 The protein secondary structure (SS) prediction plays an important role in the characterization of general protein structure and function. In recent years, a new generation of algorithms for SS prediction based on embeddings from protein lan-guage models (pLMs) is emerging. These algorithms reach state-of-the-art accuracy without the need for time-consuming multiple sequence alignment (MSA) calculations. LSTM-based SPOT-1D-LM and NetSurfP-3.0 are the latest examples of such predictors. We present the ProteinUnetLM model using a convolutional Attention U-Net architecture that provides pre-diction quality and inference times at least as good as the best LSTM-based models for 8-class SS prediction (SS8). Addi-tionally, we address the issue of the heavily imbalanced nature of the SS8 problem by extending the loss function with the Matthews correlation coefficient (MCC), and by proper assessment using previously introduced adjusted geometric mean metric (AGM). ProteinUnetLM achieved better AGM and sequence overlap score (SOV) than LSTM-based predictors, especially for the rare structures 310-helix (G), beta-bridge (B), and high curvature loop (S). It is also competitive on chal-lenging datasets without homologs, free-modeling targets, and chameleon sequences. Moreover, ProteinUnetLM outper-formed its previous MSA-based version ProteinUnet2, and provided better AGM than AlphaFold2 for 1/3 of proteins from the CASP14 dataset, proving its potential for making a significant step forward in the domain. 
 
 ### Code
-- GitHub: https://github.com/Kotrix/ProteinUnetLM
-- CodeOcean inference code and reproducible capsule: https://codeocean.com/capsule/4357959
-- Biolib prediction server: https://biolib.com/SUT/ProteinUnetLM
-- Training notebook: https://colab.research.google.com/drive/1Onh6xlg-a-_QDy2EL_t9XmKa8T3VLVEv
+- GitHub: [https://github.com/Kotrix/ProteinUnetLM](https://github.com/Kotrix/ProteinUnetLM)
+- CodeOcean inference code and reproducible capsule: [https://codeocean.com/capsule/4357959](https://codeocean.com/capsule/4357959)
+- Biolib prediction server: [https://biolib.com/SUT/ProteinUnetLM](https://biolib.com/SUT/ProteinUnetLM)
+- Training notebook: [https://colab.research.google.com/drive/1Onh6xlg-a-_QDy2EL_t9XmKa8T3VLVEv](https://colab.research.google.com/drive/1Onh6xlg-a-_QDy2EL_t9XmKa8T3VLVEv)
 
 ### Citation
 
@@ -94,7 +96,7 @@ The protein secondary structure (SS) prediction plays an important role in the c
 
 ## DisorderUnetLM
 
-CAID-3 challenge https://caid.idpcentral.org/challenge/results
+CAID-3 challenge [https://caid.idpcentral.org/challenge/results](https://caid.idpcentral.org/challenge/results)
 - 7th place (3rd tier) for Disorder-NOX dataset 
 - 4th place (2nd tier) for Linker dataset
 
@@ -105,7 +107,7 @@ The prediction of intrinsic disorder regions has significant implications for un
 
 ### Code
 
-- CodeOcean inference code and reproducible capsule: https://codeocean.com/capsule/0867702
+- CodeOcean inference code and reproducible capsule: [https://codeocean.com/capsule/0867702](https://codeocean.com/capsule/0867702)
 
 ### Citation
 
